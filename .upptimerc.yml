@@ -1,24 +1,19 @@
-# Change these first
-owner: vajradog # Your GitHub organization or username, where this repository lives
-repo: chitstat # The name of this repository
+owner: vajradog
+repo: chitstat
 
 sites:
   - name: Chitta Website
     url: https://chitta.app
     
-  - name: Chitta API - Chat
-    url: https://chitta.app/api/chat
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{"messages":[{"role":"user","content":"test"}],"textSlug":"test"}'
+  - name: Chitta API - Health Check
+    url: https://chitta.app/api/health
     expectedStatusCodes:
       - 200
-      - 503  # Expected if no auth
-
+      - 503  # May return 503 if services degraded
 
 status-website:
-  cname: status.chitta.app  # Optional: use custom domain
+  # Remove the cname line below if you DON'T want a custom domain
+  # cname: status.chitta.app
   name: Chitta Status
   introTitle: "Chitta System Status"
   introMessage: Real-time status and uptime monitoring for Chitta services
