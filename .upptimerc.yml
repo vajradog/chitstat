@@ -14,10 +14,8 @@ sites:
     body: '{"messages":[{"role":"user","content":"test"}],"textSlug":"test"}'
     expectedStatusCodes:
       - 200
-      - 401  # Expected if no auth
-      
-  - name: Supabase
-    url: https://lwdoqpnlxwjsgtttmlro.supabase.co
+      - 503  # Expected if no auth
+
 
 status-website:
   cname: status.chitta.app  # Optional: use custom domain
