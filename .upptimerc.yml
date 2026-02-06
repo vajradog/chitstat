@@ -7,21 +7,41 @@ sites:
     
   - name: Chitta API - Health Check
     url: https://chitta.app/api/health
-    expectedStatusCodes:
-      - 200
-      - 503  # May return 503 if services degraded
 
 status-website:
-  # Remove the cname line below if you DON'T want a custom domain
-  # cname: status.chitta.app
   name: Chitta Status
-  introTitle: "Chitta System Status"
-  introMessage: Real-time status and uptime monitoring for Chitta services
+  # Remove the logo url line if you don't have a logo yet
+  # logoUrl: https://chitta.app/logo.png
+  
+  # Intro section
+  introTitle: "**Chitta** System Status"
+  introMessage: Real-time monitoring of Chitta services — your AI companion for studying Tibetan Buddhist texts
+  
+  # Navigation
   navbar:
     - title: Status
       href: /
-    - title: Main Site
+    - title: Chitta.app
       href: https://chitta.app
+    - title: GitHub
+      href: https://github.com/vajradog/chitstat
+  
+  # Remove the default repository text
+  repo: ""
+  
+  # Custom theme colors (optional)
+  theme: light
+  
+  # Remove "powered by" and other branding
+  i18n:
+    footer: Monitoring powered by GitHub Actions
+    title: Chitta Status
+    url: https://chitta.app
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# Disable assignees
+assignees:
+  - vajradog
+
+# Update check frequency (every 5 minutes by default)
+workflowSchedule:
+  uptime: "*/5 * * * *"
