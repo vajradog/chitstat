@@ -22,19 +22,19 @@
     "url": "https://chitta.app/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/chitta.app.ico",
     "slug": "chitta-api-health-check",
-    "status": "down",
-    "uptime": "99.46%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.46%",
-    "uptimeYear": "99.46%",
+    "status": "up",
+    "uptime": "98.89%",
+    "uptimeDay": "95.39%",
+    "uptimeWeek": "99.34%",
+    "uptimeMonth": "98.89%",
+    "uptimeYear": "98.89%",
     "time": 320,
-    "timeDay": 295,
-    "timeWeek": 333,
+    "timeDay": 302,
+    "timeWeek": 331,
     "timeMonth": 320,
     "timeYear": 320,
     "dailyMinutesDown": {
-      "2026-02-14": 0,
+      "2026-02-14": 66,
       "2026-02-06": 61
     }
   }
