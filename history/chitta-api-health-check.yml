@@ -1,7 +1,7 @@
 url: https://chitta.app/api/health
-status: up
-code: 200
-responseTime: 314
-lastUpdated: 2026-02-22T23:03:03.928Z
+status: down
+code: 503
+responseTime: 537
+lastUpdated: 2026-02-23T14:30:37.836Z
 startTime: 2026-02-06T10:00:17.957Z
 generator: Upptime <https://github.com/upptime/upptime>
