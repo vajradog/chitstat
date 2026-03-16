@@ -4,10 +4,10 @@
     "url": "https://chitta.app",
     "icon": "https://icons.duckduckgo.com/ip3/chitta.app.ico",
     "slug": "chitta-website",
-    "status": "up",
+    "status": "down",
     "uptime": "99.85%",
-    "uptimeDay": "94.18%",
-    "uptimeWeek": "99.17%",
+    "uptimeDay": "94.14%",
+    "uptimeWeek": "99.16%",
     "uptimeMonth": "99.81%",
     "uptimeYear": "99.85%",
     "time": 717,
@@ -16,7 +16,7 @@
     "timeMonth": 807,
     "timeYear": 717,
     "dailyMinutesDown": {
-      "2026-03-16": 83
+      "2026-03-16": 84
     }
   },
   {
@@ -24,12 +24,12 @@
     "url": "https://chitta.app/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/chitta.app.ico",
     "slug": "chitta-api-health-check",
-    "status": "up",
-    "uptime": "89.39%",
-    "uptimeDay": "6.20%",
+    "status": "down",
+    "uptime": "89.40%",
+    "uptimeDay": "7.75%",
     "uptimeWeek": "57.02%",
     "uptimeMonth": "86.89%",
-    "uptimeYear": "89.39%",
+    "uptimeYear": "89.40%",
     "time": 372,
     "timeDay": 441,
     "timeWeek": 400,
